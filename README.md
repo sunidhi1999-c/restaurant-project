@@ -4,7 +4,7 @@
 The Home page which has the list of restaurants .
 <img width="729" alt="list" src="https://github.com/sunidhi1999-c/restaurant-project/assets/62587560/249d85db-6b47-4f73-87e3-a2ee466e6ad3">
 
-![alt text](http://url/to/img.png)
+![alt text]([http://url/to/img.png](https://github.com/sunidhi1999-c/restaurant-project/blob/main/list.PNG))
 ```
 ```
 
