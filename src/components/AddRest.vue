@@ -1,7 +1,7 @@
 <template>
         <HeaderPage/>
     <h1>Hello user ,Welcome at Add Restaurant Page </h1>
-    <form class="add">
+    <form class="register">
         <input type="text" name="name" placeholder="Enter name of restaurant" v-model="restaurant.name"/>
         <input type="text" name="address" placeholder="Enter Address" v-model="restaurant.address"/>
         <input type="text" name="contact" placeholder="Enter Contact" v-model="restaurant.contact"/>

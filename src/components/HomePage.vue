@@ -28,7 +28,7 @@
 import HeaderPage from './HeaderPage.vue';
 import axios from 'axios';
 
-        export default{
+export default{
     name: 'HomePage',
     data(){
         return{
@@ -45,7 +45,7 @@ import axios from 'axios';
             let result=await axios.delete("http://localhost:3000/restaurant"+id);
             console.warn(result)
             if(result.status==200){
-                this.loadData();
+                this.loadData.splice(id,1);
             }
         },
             async loadData(){

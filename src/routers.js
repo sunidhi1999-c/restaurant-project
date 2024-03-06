@@ -30,11 +30,11 @@ const routes=[
         name:'UpdateRest',
         component:UpdateRest,
         path:'/update:id'
-    }
+    },
 ];
 
 const router= createRouter({
     history:createWebHashHistory(),
-    routes
-})
+    routes,
+});
 export default router;
